@@ -1,0 +1,1 @@
+[{"ApplicationName" :"kong", "SourceAPI": "newrelic", "Metric": "CPU", "MaxValue": "44.032096862793", "MinValue": "4.50901794433594", "Status": "green", "Message": "kong looks Fine" },{"ApplicationName" :"kong", "SourceAPI": "newrelic", "Metric": "CPU", "MaxValue": "40.1209678649902", "MinValue": "4.42655944824219", "Status": "green", "Message": "kong looks Fine" }]
