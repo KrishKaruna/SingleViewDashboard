@@ -1,1 +1,146 @@
-[{"ApplicationName" :"kong", "SourceAPI": "newrelic", "Metric": "CPU", "MaxValue": "46.6466484069824", "MinValue": "2.92044305801392", "Status": "green", "Message": "kong looks Fine" },{"ApplicationName" :"kong", "SourceAPI": "newrelic", "Metric": "CPU", "MaxValue": "6.41925764083862", "MinValue": "3.01507544517517", "Status": "green", "Message": "kong looks Fine" },{"ApplicationName" :"platform-services-unbound-2-aws-production", "SourceAPI": "newrelic", "Metric": "CPU", "MaxValue": "9.01803588867188", "MinValue": "0.602409660816193", "Status": "green", "Message": "platform-services-unbound-2-aws-production looks Fine" },{"ApplicationName" :"platform-services-unbound-1-aws-production", "SourceAPI": "newrelic", "Metric": "CPU", "MaxValue": "5.2208833694458", "MinValue": "0.801603198051453", "Status": "green", "Message": "platform-services-unbound-1-aws-production looks Fine" }]
+[
+	{
+		"ApplicationName": "Onboarding Admin",
+		"Source API ": "Newrelic",
+		"Metric": "CPU",
+		"MaxValue": "90",
+		"MinValue": "90",
+		"Status": "RED",
+		"Message": "Onboarding Admin is Down/Utilzed more"
+	},
+	{
+		"ApplicationName": "Search API",
+		"Source API ": "Newrelic",
+		"Metric": "CPU",
+		"MaxValue": "0",
+		"MinValue": "0",
+		"Status": "RED",
+		"Message": "Search API is Down/Utilzed more"
+	},
+	{
+		"ApplicationName": "Cost & Booking",
+		"Source API ": "Newrelic",
+		"Metric": "CPU",
+		"MaxValue": "12",
+		"MinValue": "12",
+		"Status": "GREEN",
+		"Message": "Cost & Booking Looks Fine"
+	},
+	{
+		"ApplicationName": "3PI Kong",
+		"Source API ": "Newrelic",
+		"Metric": "CPU",
+		"MaxValue": "68",
+		"MinValue": "68",
+		"Status": "GREEN",
+		"Message": "3PI Kong Looks Fine"
+	},
+	{
+		"ApplicationName": "OM2 Kong",
+		"Source API ": "Newrelic",
+		"Metric": "CPU",
+		"MaxValue": "69",
+		"MinValue": "69",
+		"Status": "GREEN",
+		"Message": "OM2 Kong Looks Fine"
+	},
+	{
+		"ApplicationName": "NL Wrapper",
+		"Source API ": "Newrelic",
+		"Metric": "CPU",
+		"MaxValue": "70",
+		"MinValue": "70",
+		"Status": "ORANGE",
+		"Message": "NL Wrapper is Going to exceed more utilzation"
+	},
+	{
+		"ApplicationName": "TC Money",
+		"Source API ": "Newrelic",
+		"Metric": "CPU",
+		"MaxValue": "80",
+		"MinValue": "80",
+		"Status": "ORANGE",
+		"Message": "TC Money is Going to exceed more utilzation"
+	},
+	{
+		"ApplicationName": "Unbound DNS",
+		"Source API ": "Newrelic",
+		"Metric": "CPU",
+		"MaxValue": "20",
+		"MinValue": "20",
+		"Status": "GREEN",
+		"Message": "Unbound DNS Looks Fine"
+	},
+	{
+		"ApplicationName": "Onboarding Admin",
+		"Source API ": "Kibana",
+		"Metric": "Count",
+		"MaxValue": "170000",
+		"MinValue": "170000",
+		"Status": "ORANGE",
+		"Message": "Onboarding Admin Count is Increasing more"
+	},
+	{
+		"ApplicationName": "Search API",
+		"Source API ": "Kibana",
+		"Metric": "Count",
+		"MaxValue": "200000",
+		"MinValue": "200000",
+		"Status": "ORANGE",
+		"Message": "Search API Count is Increasing more"
+	},
+	{
+		"ApplicationName": "Cost & Booking",
+		"Source API ": "Kibana",
+		"Metric": "Count",
+		"MaxValue": "160000",
+		"MinValue": "160000",
+		"Status": "GREEN",
+		"Message": "Cost & Booking Count Looks Fine"
+	},
+	{
+		"ApplicationName": "3PI Kong",
+		"Source API ": "Kibana",
+		"Metric": "Count",
+		"MaxValue": "0",
+		"MinValue": "0",
+		"Status": "GREEN",
+		"Message": "3PI Kong Count Looks Fine"
+	},
+	{
+		"ApplicationName": "OM2 Kong",
+		"Source API ": "Kibana",
+		"Metric": "Count",
+		"MaxValue": "100000",
+		"MinValue": "100000",
+		"Status": "GREEN",
+		"Message": "OM2 Kong Count Looks Fine"
+	},
+	{
+		"ApplicationName": "NL Wrapper",
+		"Source API ": "Kibana",
+		"Metric": "Count",
+		"MaxValue": "210000",
+		"MinValue": "210000",
+		"Status": "RED",
+		"Message": "NL Wrapper Count is very High"
+	},
+	{
+		"ApplicationName": "TC Money",
+		"Source API ": "Kibana",
+		"Metric": "Count",
+		"MaxValue": "120000",
+		"MinValue": "120000",
+		"Status": "GREEN",
+		"Message": "TC Money Count Looks Fine"
+	},
+	{
+		"ApplicationName": "Unbound DNS",
+		"Source API ": "Kibana",
+		"Metric": "Count",
+		"MaxValue": "150000",
+		"MinValue": "150000",
+		"Status": "GREEN",
+		"Message": "Unbound DNS Count Looks Fine"
+	}
+]
